@@ -1,26 +1,29 @@
 package tutorial.webapp
 
 import org.querki.jquery.{JQuery, JQueryStatic}
+import language.implicitConversions
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSImport
 
-
-trait JQueryModal extends JQuery {
+@js.native
+trait Modal extends JQuery {
   def close(): JQuery = js.native
   def modal(): JQuery = js.native
 }
 
 @js.native
-object JQueryModal extends JQueryModal
+@JSImport("jquery-modal/jquery-mo121dal.js", JSImport.Default)
+object Modal extends js.Object
 
 object ModalHelper {
   implicit class JQueryStaticToModal(private val jQuery: JQueryStatic.type)
     extends AnyVal {
 
-    @inline def modal: JQueryModal.type =
-      jQuery.asInstanceOf[js.Dynamic].modal.asInstanceOf[JQueryModal.type]
+    def modal: Modal.type =
+      jQuery.asInstanceOf[js.Dynamic].modal.asInstanceOf[Modal.type]
 
   }
 
-  implicit def toJQueryModal(jQuery: JQuery) = jQuery.asInstanceOf[JQueryModal]
+  implicit def toJQueryModal(jQuery: JQuery): Modal = jQuery.asInstanceOf[Modal]
 }

@@ -1,10 +1,9 @@
 package tutorial.webapp
 
+import org.querki.jquery._
 import org.scalajs.dom
 import org.scalajs.dom.document
-
-import org.querki.jquery._
-import ModalHelper._
+import tutorial.webapp.ModalHelper._
 
 object TutorialApp {
   def main(args: Array[String]): Unit = {
@@ -23,8 +22,10 @@ object TutorialApp {
   }
 
   def setupUI(): Unit = {
+/*
     $("""<div><button type="button">Click me!</button></div>""")
       .click(() => $("body").append("<p>Buttion is clicked</p>")).appendTo($("body"))
+*/
 
     $("""<div><button type="button">Open window</button></div>""")
       .click(() => {
