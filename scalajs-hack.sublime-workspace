@@ -1,0 +1,573 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m",
+				"messageCount"
+			],
+			[
+				"s",
+				"scalajs"
+			],
+			[
+				"sca",
+				"scala"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"Per",
+				"Person"
+			],
+			[
+				"Pers",
+				"PersonImplicits"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"t",
+				"tostr	toString"
+			],
+			[
+				"ob",
+				"object	object"
+			],
+			[
+				"Oper",
+				"Operand"
+			],
+			[
+				"O",
+				"Operand"
+			],
+			[
+				"tr",
+				"trait	trait"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"sho",
+				"showAge"
+			],
+			[
+				"show",
+				"showName"
+			],
+			[
+				"E",
+				"Empty"
+			],
+			[
+				"M",
+				"MyEq"
+			],
+			[
+				"Eq",
+				"Eq"
+			],
+			[
+				"B",
+				"Blerg"
+			],
+			[
+				"S",
+				"Special"
+			],
+			[
+				"C",
+				"Combinable"
+			],
+			[
+				"b",
+				"bagFunc"
+			],
+			[
+				"imp",
+				"implicit"
+			],
+			[
+				"Al",
+				"AlcoholIsFlammable"
+			],
+			[
+				"f",
+				"fi	final"
+			],
+			[
+				"F",
+				"Flammable"
+			],
+			[
+				"pu",
+				"public"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "build.sbt",
+			"settings":
+			{
+				"buffer_size": 681,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main/scala/tutorial/webapp/TutorialApp.scala",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "sbt",
+		"selected_items":
+		[
+			[
+				"sbt",
+				"SBT: Show SBT Output"
+			],
+			[
+				"sbt:",
+				"SBT: Clear History"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"fr",
+				"File: Revert"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/U/Users/sshark/workspace/playground/scalajs-hack"
+	],
+	"file_history":
+	[
+		"/U/Users/sshark/workspace/playground/pmaths/src/test/resources/trx.json",
+		"/U/Users/sshark/workspace/playground/pmaths/src/test/resources/traders.json",
+		"/U/Users/sshark/Downloads/self summary.txt",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/index.html",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/src/test/scala/tutorial/webapp/TutorialTest.scala",
+		"/U/Users/sshark/Downloads/Key.txt",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/RunMe.java",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/SublimeSBT/README.md",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/build.sbt",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/User/Scala.sublime-settings",
+		"/U/Users/sshark/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/project/build.properties",
+		"/U/Users/sshark/workspace/playground/scalajs-hack/project/plugins.sbt",
+		"/U/Users/sshark/Downloads/torrents/Day of the Tentacle Remastered/Patch 1.3.11 (08 June 2016).txt",
+		"/U/Users/sshark/Copy/A/Thread5.java",
+		"/U/Users/sshark/workspace/playground/haskell-hack/chain.hs",
+		"/U/Users/sshark/workspace/playground/haskell-hack/typeclass102.hs",
+		"/U/Users/sshark/workspace/playground/coins/build.sbt",
+		"/F/Desktop Extended/Tomb_Raider_MACOSX-MONEY/RARBG.com.txt",
+		"/G/others/temptations.sql",
+		"/U/Users/sshark/bin/prime.txt",
+		"/G/others/piggie.txt",
+		"/U/Users/sshark/a/Main.java",
+		"/U/Users/sshark/Downloads/Asmedia_USB_Win7-81-10_V116331/readme.txt",
+		"/U/Users/sshark/AppData/Local/Temp/wzaeec/Key.txt",
+		"/U/Users/sshark/AppData/Local/Temp/wze2f5/Key.txt",
+		"/U/Users/sshark/AppData/Local/Temp/wz1d86/Key.txt",
+		"/D/Virtual Machines/Linux Mint 17/Linux Mint 17.vmx",
+		"/D/Virtual Machines/Linux Mint 17/Linux Mint 17.vmxf",
+		"/D/Virtual Machines/ubuntu16_64/vmware.log",
+		"/U/Users/sshark/Google Drive/properties/sentral bazaar semenyih/sentral 6th payment_extra.txt",
+		"/U/Users/sshark/Downloads/torrents/Mad Men Season S 01-06 Complete BRRip QAAC with commentary HEVC x265/Readme.txt",
+		"/U/Users/sshark/AppData/Local/Temp/wz9b1f/ReadMe.txt",
+		"/U/Users/sshark/Music/loseless/SO02232132-isisip-flac/Isisip-MyMusicCollection.txt",
+		"/U/Users/sshark/Downloads/torrents/Paragon HFS+(Plus) for Windows 10.5.0.95 + Serials {B4tman}/Install Notes.txt",
+		"/U/Users/sshark/Downloads/torrents/Paragon HFS+(Plus) for Windows 10.5.0.95 + Serials {B4tman}/Serials.txt",
+		"/U/Users/sshark/Copy/what was he talking.txt",
+		"/U/Users/sshark/Downloads/ReadMe.txt",
+		"/U/Users/sshark/Music/iTunes/iTunes Library.itl",
+		"/D/iTunes/iTunes Music Library.xml",
+		"/U/Users/sshark/Music/iTunes/iTunes Music Library.xml",
+		"/U/Users/sshark/abc/runme.scala",
+		"/U/Users/sshark/abc/me.scala",
+		"/U/Users/sshark/Copy/poker/poker-dojo.scala",
+		"/U/Users/sshark/Copy/pokerhand re.txt",
+		"/U/Users/sshark/Copy/function declared in Function.prototype vs Function.txt",
+		"/U/Users/sshark/Downloads/[Richard_Bird]_Introduction_to_Functional_Programm(BookZZ.org).djvu",
+		"/U/Users/sshark/Copy/poker-dojo.scala",
+		"/U/Users/sshark/Copy/RunHash.java",
+		"/U/Users/sshark/Downloads/torrents/The Monkey King 2.2016.DVDRip.Full.Movie/The Monkey King 2.2016.DVDRip.Full.Movie/Movie Password.txt",
+		"/U/Users/sshark/Downloads/ss/78464890_12c0869.jpg.html",
+		"/U/Users/sshark/Copy/nitecore sg link.txt",
+		"/C/7349b147f18d3dc57d6d6008/Windows6.1-KB2685813-x64.xml",
+		"/C/7349b147f18d3dc57d6d6008/Windows6.1-KB2685813-x64-pkgProperties.txt",
+		"/U/Users/sshark/Copy/Yet another Nitecore SRT7 experience.txt",
+		"/U/Users/sshark/VirtualBox VMs/Mint Rosa Clone/Mint Rosa Clone.vbox",
+		"/U/Users/sshark/VirtualBox VMs/Mint Rosa/Mint Rosa.vbox",
+		"/U/Users/sshark/Downloads/torrents/Cat.Shit.One.2009.1080p.BluRay.DTS.x264-CtrlHD [PublicHD]/Downloaded from PublicHD.EU.txt",
+		"/U/Users/sshark/AppData/Local/Temp/wz53ad/cec-meeting/users/src/test/java/RunHash.java",
+		"/U/Users/sshark/Downloads/esd-decrypter-wimlib-4/ReadMe.txt",
+		"/U/Users/sshark/Copy/tailrec/TailCallRun.java",
+		"/U/Users/sshark/workspace/playground/haskell-hack/swap.hs",
+		"/U/Users/sshark/Copy/transformer/Transformer.scala",
+		"/U/Users/sshark/Downloads/vmware-workstation-12-serialz.txt",
+		"/U/Users/sshark/Copy/AP as investment argument.txt",
+		"/U/Users/sshark/Documents/Virtual Machines/Gentoo/vmware.log",
+		"/U/Users/sshark/Copy/monad-typeclass.scala",
+		"/U/Users/sshark/bin/local.txt",
+		"/U/Users/sshark/bin/results.txt",
+		"/U/Users/sshark/Copy/healthy food.txt",
+		"/U/Users/sshark/Documents/gitignore_global.txt",
+		"/U/Users/sshark/Downloads/torrents/KEYS/Keys_ESET/Свежие ключи для ESET.txt",
+		"/U/Users/sshark/Downloads/torrents/KEYS/Keys_ESET/Инструкция установки ключей ESET.txt",
+		"/U/Users/sshark/Downloads/torrents/KEYS/Keys_ESET/Обычные ключи для ESET.txt",
+		"/U/Users/sshark/Google Drive/new to JS.md",
+		"/U/Users/sshark/workspace/playground/haskell-hack/baby.hs",
+		"/U/Users/sshark/Copy/onetab_office.txt",
+		"/U/Users/sshark/AppData/Roaming/Mozilla/Firefox/Profiles/6zs7cvdm.default/extensions/Simple@White.Theme.xpi",
+		"/U/Users/sshark/Google Drive/baby.hs",
+		"/U/Users/sshark/AppData/Roaming/ghc/ghci.conf",
+		"/U/Users/sshark/AppData/Roaming/ghc/ghci_history",
+		"/U/Users/sshark/Google Drive/tonykpk AP experience and my reply.txt",
+		"/U/Users/sshark/Downloads/eset nod32 serialz.txt",
+		"/U/Users/sshark/Copy/sync-digiasean.sh",
+		"/V/README.txt",
+		"/U/Users/sshark/Copy/runme.scala",
+		"/U/Users/sshark/.ssh/id_rsa.pub",
+		"/U/Users/sshark/.ssh/authorized_keys",
+		"/U/Users/sshark/.ssh/id_rsa",
+		"/U/Users/sshark/Downloads/Settings_RT-N56U.CFG",
+		"/U/Users/sshark/Documents/windows7 license.txt",
+		"/U/Users/sshark/Copy/Scala and Java inheritance/RunMe.java",
+		"/U/Users/sshark/Copy/IntelliJLatest-serialz.txt",
+		"/U/Users/sshark/Downloads/BlueVision.rmskin",
+		"/U/Users/sshark/Downloads/torrents/Maze Runner The Scorch Trials 2015 720p BrRip x264 - BLOW/Open With WindowsMediaPlayer.txt",
+		"/U/Users/sshark/Copy/Documents/ebooks/Clojure Script Up And Running V413HAV/Read Me.txt",
+		"/D/others/piggie.txt",
+		"/U/Users/sshark/workspace/playground/scala/this is an extra.txt",
+		"/U/Users/sshark/Copy/lenny reply.txt",
+		"/U/Users/sshark/a/runme.scala",
+		"/U/Users/sshark/Copy/my profile.txt",
+		"/U/Users/sshark/Copy/Andie.txt",
+		"/U/Users/sshark/Downloads/sample-pom.xml",
+		"/U/Users/sshark/Desktop/citibank.csv",
+		"/U/Users/sshark/workspace/playground/runme/runme.scala",
+		"/U/Users/sshark/workspace/playground/runme/AlcoholIsFlammable.java",
+		"/U/Users/sshark/workspace/playground/runme/Flammable.java",
+		"/U/Users/sshark/workspace/playground/runme/Water.java",
+		"/U/Users/sshark/workspace/playground/runme/Fire.java",
+		"/U/Users/sshark/workspace/playground/runme/Alcohol.java",
+		"/U/Users/sshark/Downloads/st_20150808_1ndp08_1584737.pdf",
+		"/U/Users/sshark/Downloads/torrents/[]Microsoft Office Professional Plus (x64) 2013 Incl  Activator  P2P/README.txt",
+		"/U/Users/sshark/Downloads/torrents/[]Microsoft Office Professional Plus (x64) 2013 Incl  Activator  P2P/updates/readme.txt",
+		"/U/Users/sshark/Downloads/torrents/KEYS/Keys_ESET/Триал ключи для ESET.txt",
+		"/U/Users/sshark/Documents/Rainmeter/Skins/BlueVision V0.2/!LAUNCHER/1920x1080 - 1200.ini",
+		"/U/Users/sshark/AppData/Roaming/Rainmeter/Rainmeter.ini",
+		"/U/Users/sshark/Documents/Rainmeter/Skins/Windows 10/Surface/Notepad.txt",
+		"/U/Users/sshark/Documents/Rainmeter/Skins/illustro/Welcome/Welcome.ini",
+		"/U/Users/sshark/Downloads/ffmpeg.lib",
+		"/U/Users/sshark/Downloads/torrents/Xilisoft Video Converter Ultimate 7.8.8 Build 20150402 + Serial Key [DTW]/Read Me First.txt",
+		"/U/Users/sshark/Downloads/torrents/WinAVI Video Converter 11 {HMP}/SERIAL !!!.txt",
+		"/U/Users/sshark/Downloads/torrents/WinAVI All-In-One Converter v1.7.0.4734 Incl Crack [TorDigger]/ReadMe!.txt",
+		"/U/Users/sshark/Copy/winavi_converter_serialz.txt",
+		"/D/root/software/archives/crackz/VMware Workstation 11 serialz.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctrl+d",
+			")\n",
+			"y",
+			"ctrl+c",
+			"line",
+			"jsDependencies",
+			"import",
+			"object PersonImplicits{\n  implicit def personNum(p: Person) = new Num[Person] {\n    def +(that: Person) = Person(p.weeks + that.weeks, p.amount + that.amount)\n  }  \n}\n\n",
+			"Trampoline",
+			"1",
+			"]\n",
+			"1",
+			"val",
+			"}    ",
+			"poweron",
+			"case class FutureO[+A](future: Future[Option[A]]) extends AnyVal {\n  def flatMap[B](f: A => FutureO[B])(implicit ec: ExecutionContext): FutureO[B] = {\n    val newFuture = future.flatMap{\n      case Some(a) => f(a).future\n      case None => Future.successful(None)\n    }\n    FutureO(newFuture)\n  }\n\n  def map[B](f: A => B)(implicit ec: ExecutionContext): FutureO[B] = {\n    FutureO(future.map(option => option map f))\n  }\n}\n\n",
+			"Dojo",
+			"comm",
+			"\\\\",
+			"\\",
+			"\\\\",
+			"object Two extends Suit {\n    def override def toString(): String =  \"2\" \n    \n}\n",
+			" (",
+			"('+')",
+			"T",
+			"NumberNumber",
+			"chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html#uri=",
+			"int",
+			"spaces",
+			"right",
+			"same",
+			"Equal_",
+			"JustFunctor",
+			"10.20.1.45:8081",
+			"	\n",
+			"public class Alcohol {\n	public double liters;\n\n	public Alcohol(double liters) {\n		this.liters = liters;\n	}	\n}\n\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"Thunk",
+			"\\",
+			"",
+			"\\",
+			"Int",
+			"",
+			"long",
+			"isSame",
+			"MyEq",
+			"FunctorForClass",
+			"repository-1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "U:\\Users\\sshark\\workspace\\playground\\scalajs-hack"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "build.sbt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								681,
+								681
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main/scala/tutorial/webapp/TutorialApp.scala",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sbt":
+	{
+		"height": 241.0
+	},
+	"output.sbt_error":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
