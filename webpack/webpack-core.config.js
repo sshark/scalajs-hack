@@ -1,7 +1,7 @@
 var path = require("path");
-var webpack = require('webpack');
-var CopyWebpackPlugin = require('copy-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var webpack = require("webpack");
+var CopyWebpackPlugin = require("copy-webpack-plugin");
+var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -11,22 +11,22 @@ module.exports = {
       "js": path.resolve(__dirname, "../../../../src/main/js"),
       "scalajs": path.resolve(__dirname, "./scalajs-entry.js")
     },
-    modules: [path.resolve(__dirname, 'node_modules')]
+    modules: [path.resolve(__dirname, "node_modules")]
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ["style-loader", "css-loader"]
       },
-      {
-        test: require.resolve('jquery'),
+      { // not necessarily unless to expose jQuery to JS in HTML page
+        test: require.resolve("jquery"),
         use: [{
-          loader: 'expose-loader',
-          options: 'jQuery'
+          loader: "expose-loader",
+          options: "jQuery"
         }, {
-          loader: 'expose-loader',
-          options: '$'
+          loader: "expose-loader",
+          options: "$"
         }]
       },
       // "file" loader for svg
@@ -34,9 +34,9 @@ module.exports = {
         test: /\.svg$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: "file-loader",
             query: {
-              name: 'static/media/[name].[hash:8].[ext]'
+              name: "static/media/[name].[hash:8].[ext]"
             }
           }
         ]

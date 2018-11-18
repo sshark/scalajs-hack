@@ -22,17 +22,16 @@ object TutorialApp {
   }
 
   def setupUI(): Unit = {
-/*
-    $("""<div><button type="button">Click me!</button></div>""")
-      .click(() => $("body").append("<p>Buttion is clicked</p>")).appendTo($("body"))
-*/
 
-    $("""<div><button type="button">Open window</button></div>""")
-      .click(() => {
-        println("try to open dialog")
-        $("#ex1").modal()
-      }).appendTo($("body"))
+    $(
+      """<div id="ex1" class="modal">
+        |  <p>Thanks for clicking. That felt good.</p>
+        |  <a href="#" rel="modal:close">Close</a>
+        |</div>
+        |<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+        |<div><button type="button">Open Modal Too</button></div>"""
+        .stripMargin).click(() => $("#ex1").modal()).appendTo($("body"))
 
-    $("body").append("<p>Hello World!!!</p>")
+    Modal
   }
 }

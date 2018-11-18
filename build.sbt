@@ -34,7 +34,7 @@ webpackConfigFile in fullOptJS := Some(baseDirectory.value / "webpack" / "webpac
 webpackConfigFile in Test := Some(baseDirectory.value / "webpack" / "webpack-core.config.js")
 
 webpackDevServerExtraArgs in fastOptJS := Seq("--inline", "--hot")
-webpackBundlingMode in fastOptJS := BundlingMode.LibraryOnly()
+webpackBundlingMode in fastOptJS := BundlingMode.LibraryAndApplication()
 
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv
 

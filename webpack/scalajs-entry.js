@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === "production") {
   window.global = window;
 
   const fastOpt = require("./scala-js-hack-fastopt.js");
-  // fastOpt.entrypoint.main()
+  fastOpt.entrypoint.main()
   module.exports = fastOpt;
 
   if (module.hot) {

@@ -1,5 +1,5 @@
 var merge = require('webpack-merge');
-var core = require('./webpack-core.config.js')
+var core = require('./webpack-core.config2.js')
 var webpack = require("webpack");
 
 var generatedConfig = require("./scalajs.webpack.config.js");

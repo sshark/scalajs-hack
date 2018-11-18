@@ -13,7 +13,7 @@ trait Modal extends JQuery {
 }
 
 @js.native
-@JSImport("jquery-modal/jquery-mo121dal.js", JSImport.Default)
+@JSImport("jquery-modal", JSImport.Default)
 object Modal extends js.Object
 
 object ModalHelper {
